@@ -206,4 +206,5 @@ def excluirproduto():
         conexao.close()
         
 
-app.run(port=5000)
+if __name__ == "__main__":
+    app.run()
